@@ -2,6 +2,7 @@ FROM fluent/fluentd:latest
 
 MAINTAINER Miroslav Spousta <qiq@ucw.cz>
 
+
 WORKDIR /home/fluent
 
 COPY fluentd.conf /fluentd/etc/fluentd.conf
